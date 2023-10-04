@@ -21,5 +21,8 @@ module.exports = {
     project: './google-translate-clone/tsconfig.json'
   },
   plugins: ['react'],
-  rules: {}
+  rules: {
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    'react/react-in-jsx-scope': 'off'
+  }
 }
